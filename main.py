@@ -1,6 +1,6 @@
 """
 POC de File Search con Gemini para análisis de contratos PDF
-Autor: Italo - Bit2me
+Autor: Italo
 Fecha: Noviembre 2024
 """
 

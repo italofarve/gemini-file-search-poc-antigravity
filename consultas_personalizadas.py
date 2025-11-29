@@ -177,7 +177,7 @@ custom_queries = (
 )
 """
 
-# Plantilla para crear consultas personalizadas para Bit2me
+# Plantilla para crear consultas personalizadas para Fintech/Crypto
 CONSULTAS_FINTECH_CRYPTO = [
     "¿Se mencionan regulaciones específicas como MiCA o AML?",
     "¿Hay cláusulas sobre custodia de activos digitales?",

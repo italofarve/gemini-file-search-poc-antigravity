@@ -219,7 +219,7 @@ config=types.GenerateContentConfig(
 - Costo de indexación: ~$0.00075 USD
 - Consultas: Solo pagas los tokens de respuesta
 
-## 🧪 Casos de Uso en Bit2me
+## 🧪 Casos de Uso
 
 Este POC puede adaptarse para:
 
@@ -229,6 +229,24 @@ Este POC puede adaptarse para:
 4. **Extracción de datos de KYC/AML**
 5. **Análisis de documentación técnica**
 6. **Base de conocimiento para agentes AI**
+
+## 🧠 Long Context vs File Search Store
+
+Este proyecto utiliza **Long Context** en lugar de **File Search Store** por razones específicas de diseño:
+
+### 1. Long Context (Implementación Actual)
+Es como darle al modelo el **documento entero** para que lo lea completo.
+*   **Funcionamiento**: Sube el archivo y lo procesa completo en la ventana de contexto.
+*   **Ventaja**: Visión global perfecta. Ideal para resúmenes, análisis de riesgos y comprensión profunda de la estructura del contrato.
+*   **Uso**: Análisis detallado de documentos individuales.
+
+### 2. File Search Store (RAG)
+Es como una **biblioteca con índice**.
+*   **Funcionamiento**: Divide el documento en fragmentos (chunks) y recupera solo los más relevantes para cada pregunta.
+*   **Ventaja**: Eficiente para buscar datos específicos en miles de documentos.
+*   **Desventaja**: Pierde el contexto global necesario para resúmenes completos o análisis estructurales.
+
+**Decisión**: Para el objetivo de "analizar un contrato a fondo", **Long Context** es la arquitectura superior.
 
 ## ⚠️ Limitaciones
 
@@ -260,11 +278,5 @@ Este POC puede adaptarse para:
 
 ## 🤝 Soporte
 
-Para dudas sobre la implementación en Bit2me:
-- Equipo: AI Strategy & Implementation
-- Contacto: [Tu email en Bit2me]
-
----
-
-**Desarrollado por Italo - Bit2me AI Team**
+**Desarrollado por Italo**
 *POC para evaluación de File Search de Gemini en casos de uso empresariales*
