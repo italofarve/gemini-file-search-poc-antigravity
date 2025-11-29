@@ -1,0 +1,44 @@
+
+CONTRATO DE SERVICIOS PROFESIONALES
+
+Fecha: 28 de Noviembre de 2024
+
+REUNIDOS
+
+De una parte, TECH SOLUTIONS S.L., con domicilio en Calle Innovación 1, Madrid, y NIF B12345678 (en adelante, el "CLIENTE").
+Y de otra parte, CONSULTOR EXPERTO S.A., con domicilio en Avenida del Saber 99, Barcelona, y NIF A98765432 (en adelante, el "PROVEEDOR").
+
+EXPONEN
+
+Que el CLIENTE está interesado en contratar servicios de desarrollo de software.
+Que el PROVEEDOR cuenta con la experiencia necesaria.
+
+ACUERDAN
+
+PRIMERA. OBJETO
+El PROVEEDOR prestará servicios de desarrollo de una aplicación móvil de gestión de tareas.
+
+SEGUNDA. DURACIÓN
+El contrato tendrá una duración de 12 meses, prorrogables por acuerdo mutuo.
+
+TERCERA. PRECIO Y FORMA DE PAGO
+El precio total de los servicios se fija en 120.000 EUROS anuales, pagaderos mensualmente.
+Las facturas se emitirán a mes vencido y se pagarán a 30 días fecha factura.
+
+CUARTA. CONFIDENCIALIDAD
+Ambas partes guardarán estricta confidencialidad sobre la información intercambiada.
+
+QUINTA. PROPIEDAD INTELECTUAL
+Todo el código desarrollado será propiedad exclusiva del CLIENTE una vez abonado el precio total.
+
+SEXTA. RESOLUCIÓN
+Cualquiera de las partes podrá resolver el contrato con un preaviso de 30 días en caso de incumplimiento grave de la otra parte.
+
+SÉPTIMA. LEY APLICABLE
+Este contrato se rige por la ley española.
+
+En prueba de conformidad, firman el presente contrato en la fecha indicada.
+
+POR EL CLIENTE:                       POR EL PROVEEDOR:
+[Firma]                               [Firma]
+Juan Director                         Ana Gerente

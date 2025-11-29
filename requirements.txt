@@ -1,0 +1,15 @@
+# Dependencias para el POC de File Search con Gemini
+
+# SDK oficial de Google para Gemini
+google-genai>=0.2.0
+
+# Utilidades
+python-dotenv>=1.0.0  # Para cargar variables de entorno desde .env
+
+
+# Opcional: Para mejor visualización de resultados
+rich>=13.0.0          # Para output con colores y formato
+tabulate>=0.9.0       # Para mostrar datos en tablas
+
+# Opcional: Para trabajar con PDFs localmente (análisis adicional)
+PyPDF2>=3.0.0         # Para extraer texto de PDFs localmente si es necesario

@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment variables
+.env
+.env.local
+
+# Mac
+.DS_Store
+
+# Project specific outputs
+resultados_analisis.json
+*.pdf
+!contrato_ejemplo.pdf
+
+# IDEs
+.vscode/
+
+# Temporary scripts
+inspect_*.py
+list_models.py
+
