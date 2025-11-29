@@ -1,7 +1,7 @@
 """
 POC de File Search con Gemini para análisis de contratos PDF
 Autor: Italo
-Fecha: Noviembre 2024
+Fecha: Noviembre 2025
 """
 
 from google import genai

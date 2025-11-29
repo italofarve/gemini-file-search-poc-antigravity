@@ -183,10 +183,10 @@ operation = client.file_search_stores.upload_to_file_search_store(
     file=pdf_path,
     file_search_store_name=store.name,
     config={
-        'display_name': 'Contrato 2024',
+        'display_name': 'Contrato 2025',
         'custom_metadata': [
             {"key": "tipo", "string_value": "laboral"},
-            {"key": "año", "numeric_value": 2024}
+            {"key": "año", "numeric_value": 2025}
         ]
     }
 )
@@ -200,7 +200,7 @@ config=types.GenerateContentConfig(
         types.Tool(
             file_search=types.FileSearch(
                 file_search_store_names=[store.name],
-                metadata_filter='tipo=laboral AND año=2024'
+                metadata_filter='tipo=laboral AND año=2025'
             )
         )
     ]
@@ -275,6 +275,10 @@ Es como una **biblioteca con índice**.
 - [Google AI Studio](https://aistudio.google.com/)
 - [Precios de Gemini](https://ai.google.dev/gemini-api/docs/pricing)
 - [Tipos de archivos soportados](https://ai.google.dev/gemini-api/docs/file-search#supported-file-types)
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
 ## 🤝 Soporte
 

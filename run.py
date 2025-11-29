@@ -3,7 +3,7 @@
 POC de File Search con Gemini para análisis de contratos PDF
 Version mejorada con soporte para .env
 Autor: Italo
-Fecha: Noviembre 2024
+Fecha: Noviembre 2025
 """
 
 import os
@@ -55,7 +55,7 @@ if __name__ == "__main__":
                 
                 contenido = [
                     "",
-                    "Fecha: 27 de Noviembre de 2024",
+                    "Fecha: 27 de Noviembre de 2025",
                     "",
                     "REUNIDOS:",
                     "",
@@ -100,7 +100,7 @@ if __name__ == "__main__":
                     "",
                     "Y en prueba de conformidad, firman el presente contrato.",
                     "",
-                    "En Madrid, a 27 de Noviembre de 2024",
+                    "En Madrid, a 27 de Noviembre de 2025",
                     "",
                     "",
                     "Fdo: Juan García López          Fdo: María Rodríguez Pérez",

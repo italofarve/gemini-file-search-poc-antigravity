@@ -108,7 +108,7 @@ def quick_file_search_test():
         test_content = """
         CONTRATO DE PRUEBA
         
-        Fecha: 15 de Noviembre de 2024
+        Fecha: 15 de Noviembre de 2025
         
         Entre: Empresa ABC S.L. (CIF: B12345678)
         Y: Cliente XYZ S.A. (CIF: A87654321)
