@@ -18,7 +18,6 @@ pip-delete-this-directory.txt
 .DS_Store
 
 # Project specific outputs
-resultados_analisis.json
 *.pdf
 !contrato_ejemplo.pdf
 
